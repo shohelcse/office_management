@@ -71,7 +71,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12 ">
+        <div class="col-md-9 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading">Exam-Schedule</div>
 
@@ -86,8 +86,7 @@
       <th>Session</th>
       <th>Semester</th>
       <th>Download</th>
-        <th>Starting-Date</th>
-        <th>Ending-Date</th>
+    
  
     </tr>
   </thead>
@@ -98,9 +97,14 @@
     
       <td>{{$roaster->session}}</td>
       <td>{{$roaster->semester}}</td>
-      <td>.doc </td>
-      <td>{{$roaster->start}}</td>
-      <td>{{$roaster->end}}</td>
+      <td>  
+       <a href="download/{{'Lab Report.pdf'}}" >
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-download-alt"></span> Download
+        </button>
+        </a>
+     </td>
+
  
     </tr>
   

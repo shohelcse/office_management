@@ -35,7 +35,7 @@
   <div class="table-responsive">
         <table class="table table-bordered table-striped table-highlight">
             <thead>
-                <th style="width:50px;" >Create-session</th>
+                <th style="width:50px;" >Create-semester</th>
               
                
          
@@ -66,7 +66,7 @@
 
 
               <div class="form-group">
-                            <div class="col-md-6 col-sm-offset-5">
+                            <div class="col-md-6 col-md-offset-5">
                                 <button type="submit" class="btn btn-primary">
                                  Submit
                                 </button>
@@ -76,11 +76,6 @@
 
 </form>
  
-
-
-
-
-
 
 <form class="form-horizontal" method="POST" action="{{url('/insertToSession')}}" >
 
@@ -102,7 +97,7 @@
   <div class="table-responsive">
         <table class="table table-bordered table-striped table-highlight">
           <thead>
-                <th>Existing-Session</th>
+                <th>Existing-Semester</th>
                    <th>update</th>
                    <th>delete</th>
              </thead>
@@ -111,13 +106,23 @@
             <tbody>
 
 
-     @foreach($data as $d)
+    
                     
                             
                 
  <tr>
 
-   <td>{{$d->session}}</td>
+   <td>1-1</td>
+ 
+  
+    <td><a href="" class="label label-success">Update</a> </td>
+
+    <td><a href="" class="label label-danger">Delete</a></td>
+
+ </tr>
+ <tr>
+
+   <td>1-2</td>
  
   
     <td><a href="" class="label label-success">Update</a> </td>
@@ -126,7 +131,68 @@
 
  </tr>
 
-   @endforeach
+ <tr>
+
+   <td>2-1</td>
+ 
+  
+    <td><a href="" class="label label-success">Update</a> </td>
+
+    <td><a href="" class="label label-danger">Delete</a></td>
+
+ </tr>
+
+ <tr>
+
+   <td>2-2</td>
+ 
+  
+    <td><a href="" class="label label-success">Update</a> </td>
+
+    <td><a href="" class="label label-danger">Delete</a></td>
+
+ </tr>
+ <tr>
+
+   <td>3-1</td>
+ 
+  
+    <td><a href="" class="label label-success">Update</a> </td>
+
+    <td><a href="" class="label label-danger">Delete</a></td>
+
+ </tr>
+ <tr>
+
+   <td>3-2</td>
+ 
+  
+    <td><a href="" class="label label-success">Update</a> </td>
+
+    <td><a href="" class="label label-danger">Delete</a></td>
+
+ </tr>
+ <tr>
+
+   <td>4-1</td>
+ 
+  
+    <td><a href="" class="label label-success">Update</a> </td>
+
+    <td><a href="" class="label label-danger">Delete</a></td>
+
+ </tr>
+ <tr>
+
+   <td>4-2</td>
+ 
+  
+    <td><a href="" class="label label-success">Update</a> </td>
+
+    <td><a href="" class="label label-danger">Delete</a></td>
+
+ </tr>
+
 
             </tbody>
         </table>
@@ -145,8 +211,14 @@
  
 
 
+
 </div>
 </div>
+
+
+
+
+
 
 
 

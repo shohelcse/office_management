@@ -34,6 +34,17 @@ $data = DB::table('sessions')->get();
 return view('layouts.courseTrackingSession',compact('data'));
    }
 
+     public function myfunction5(){
+$data = DB::table('sessions')->get();
+return view('layouts.sessionCreate',compact('data'));
+   }
+
+
+
+     public function myfunction6(){
+$data = DB::table('sessions')->get();
+return view('layouts.sessionCreate',compact('data'));
+   }
 
 
 

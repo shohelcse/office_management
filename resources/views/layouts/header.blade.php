@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Office-management') }}</title>
+    <title>Department of CSE</title>
    
 
     <!-- Styles -->

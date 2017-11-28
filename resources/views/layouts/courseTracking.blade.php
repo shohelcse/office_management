@@ -90,7 +90,7 @@
                  <th style="width:50px;">EQS</th>
                  <th style="width:50px;">IQA</th>
                  <th style="width:50px;">EQA</th>
-              
+                  <th></th>
             </thead>
             <tbody>
 
@@ -99,14 +99,16 @@
 
 
            <tr>
-                <td> {{$user->courseCode}}<br></td>
-                <td> {{$user->courseTitle}}<br></td>
-                <td> {{$user->internal_id}}<br></td>
-                <td> {{$user->external_id}}<br></td>  
-                <td style="width:50px;"><input type="checkbox" class="form-control"  name="IQS[]" value="1" checked><br></td>
-                <td style="width:50px;"><input type="checkbox" class="form-control"  name="EQS[]" value="1" checked><br></td>
-                <td style="width:50px;"><input type="checkbox" class="form-control"  name="IQA[]" value="1" checked><br></td>
-                <td style="width:50px;"><input type="checkbox" class="form-control"  name="EQA[]" value="1" checked><br></td>
+                <td> {{$user->courseCode}}</td>
+                <td> {{$user->courseTitle}}</td>
+           <td> {{$user->internal_id}}</td> 
+       
+                <td> {{$user->external_id}}</td>  
+                <td><input type="checkbox" class="form-control"  name="EQA[]" value="0" ></td>
+                <td><input type="checkbox" class="form-control"  name="IQS[]" value="0" ></td>
+                <td ><input type="checkbox" class="form-control"  name="EQS[]" value="0" ></td>
+                
+                <td><input type="checkbox" class="form-control"  name="IQA[]" value="0" ></td>
          
            </tr>   
 

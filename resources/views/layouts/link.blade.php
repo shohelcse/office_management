@@ -5,7 +5,7 @@
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>Member Registration</title>
+ <title>Department of CSE</title>
  <!-- Bootstrap -->
 
 
@@ -18,8 +18,7 @@
     <script type="text/javascript" src="{{url('js/select2.min.js')}}"></script>
      <script type="text/javascript" src="{{url('js/angular.js')}}"></script>
 
-
-
+ 
   <!--<script src="{{ asset('js/app.js')}}"></script>-->
 
  <link rel="stylesheet" href="{{asset('css/jquery.dataTables.min.css')}}">
@@ -36,6 +35,6 @@ $(document).ready(function(){
 <style type="text/css">
 	
 	#header{text-align:center;}
-	#header p{font-size: 180%;}
+	#header p{font-size: 150%;}
 </style>
 </head>

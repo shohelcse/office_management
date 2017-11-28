@@ -8,8 +8,8 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
   <br>
-  <br>
-    <br>
+
+
 
 
     <div id="header" class="panel-heading" ><p>Upcoming Exam</p></div>
@@ -222,7 +222,7 @@
 
 
 
-<br>
+
 <br>
 
     <div id="header" class="panel-heading" ><p>Upcoming Result</p></div>
@@ -238,28 +238,31 @@
          <th>Session</th>
          <th>Semester</th>
          <th>Starting-Date</th>
-        
+         <th>Ending-Date</th>
          <th>Action</th>
  
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>2015-16</td>
-        <td>2-2</td>
-    
-     
-        <td>05/06/17</td>
-  <td><button type="button" class="btn btn-info" >Status</button></td>
-        
-      </tr>
-            <tr>
         <td>2013-14</td>
         <td>3-2</td>
-
-        <td>10/07/17</td>
+        <td>10/06/17</td>
+         <td>16/12/17</td>
        
-  <td><button type="button" class="btn btn-info" >Status</button></td>        
+
+
+     
+   <td><button type="button" class="btn btn-info" >Status</button>  
+  <button type="button" class="btn btn-info" >Publish</button></td> 
+      </tr>
+            <tr>
+         <td>2012-13</td>
+        <td>4-2</td>
+        <td>08/08/17</td>
+        <td>05/01/18</td>
+  <td><button type="button" class="btn btn-info" >Status</button>  
+  <button type="button" class="btn btn-info" >Publish</button></td>        
       </tr>
  
  

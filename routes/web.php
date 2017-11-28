@@ -31,6 +31,25 @@ Route::get('/sessionCreate',function(){
 });
 
 Route::post('/insertToSession','createSession@add');
+Route::get('/sessionCreate','sessionController@myfunction5');
+
+///semester module
+
+Route::get('/semesterCreate',function(){
+	return view('layouts.semesterCreate');
+});
+
+
+
+///semester details module
+
+
+Route::get('/semesterDetails',function(){
+	return view('layouts.semesterDetails');
+});
+
+
+
 
 
 ///Roaster module
@@ -52,6 +71,10 @@ Route::post('/insertToEntry','CourseEntryController@add');
 
 
 ///courseAssign module
+
+Route::get('/courseAssignSession',function(){
+	return view('layouts.courseAssignSession');
+});
 
 Route::get('/courseAssignSession','sessionController@myfunction3');
 Route::post('/insertToCourseAssign','assignController@testfunction');

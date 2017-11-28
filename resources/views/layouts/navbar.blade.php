@@ -15,9 +15,31 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Manage<span class="caret"></span></a>
 
                     <ul class="dropdown-menu multi-level">
-                        <li><a href='{{url("/sessionCreate")}}'>Session</a></li>
-                        <li><a href="#">Semester</a></li>
-                      
+                       
+
+
+
+
+
+
+
+    <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academic</a>
+                            <ul class="dropdown-menu">
+              <li><a href='{{url("/sessionCreate")}}'>Session</a></li>
+                        <li><a href='{{url("/semesterCreate")}}'>Semester</a></li>
+                        <li><a href='{{url("/semesterDetails")}}'>Semester-Details</a></li>
+
+                            </ul>
+                        </li>
+
+
+
+
+
+
+
+
                         <li class="dropdown-submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
                             <ul class="dropdown-menu">
@@ -34,7 +56,7 @@
 
 
    <li class="dropdown">
-          <a href='{{url("/home")}}' class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Exam-Schedule<span class="caret"></span></a>
+          <a href='{{url("/home")}}' class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Academic-Schedule<span class="caret"></span></a>
 
                     <ul class="dropdown-menu multi-level">
                      <li><a href='{{url("/Rshow")}}'>Show-Duties</a></li>
